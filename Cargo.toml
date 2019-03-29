@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Otávio Pace <otavio.pace@pagar.me>"]
 edition = "2018"
 
+[dependencies]
+specs = "0.14.3"
+specs-derive = "0.4.0"
+
 [dependencies.sdl2]
 version = "0.32.1"
 default-features = false
